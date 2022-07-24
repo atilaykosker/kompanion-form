@@ -8,6 +8,7 @@ import React from 'react';
 import { render, screen, fireEvent, cleanup, waitFor } from '@testing-library/react';
 import { localeTexts } from '../assets/strings';
 import App from '../App';
+import AppWrapper from '../hoc/AppWrapper';
 
 // eslint-disable-next-line no-undef
 global.fetch = jest.fn().mockImplementation(() => mockFetchPromise);
@@ -19,7 +20,11 @@ describe('Form component', () => {
   let nextButton;
 
   beforeEach(() => {
-    render(<App />);
+    render(
+      <AppWrapper>
+        <App />
+      </AppWrapper>
+    );
     //Mocks
     alertMock = jest.spyOn(window, 'alert').mockImplementation();
     //Elements
@@ -48,8 +53,6 @@ describe('Form component', () => {
   });
 
   it('pass to next step on filled all inputs', async () => {
-    render(<App />);
-
     fireEvent.change(inputWeight, { target: { value: '80' } });
     fireEvent.change(inputHeight, { target: { value: '120' } });
     fireEvent.click(nextButton);

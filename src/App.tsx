@@ -9,14 +9,10 @@ function App() {
   document.getElementsByTagName('html')[0].setAttribute('dir', language === 'AR' ? 'rtl' : 'ltr');
 
   return (
-    <LanguageProvider>
-      <FormProvider>
-        <div className="App">
-          <header className="App-header" />
-          <MainPage />
-        </div>
-      </FormProvider>
-    </LanguageProvider>
+    <div className="App">
+      <header className="App-header" />
+      <MainPage />
+    </div>
   );
 }
 
