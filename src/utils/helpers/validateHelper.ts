@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 type StepType = {
   component: JSX.Element;
   title: string;

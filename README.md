@@ -1,5 +1,7 @@
-## Registeration Step Form 
+## Registeration Step Form
+
 ---
+
 <br>
 ## [Live Demo]()
 <br>
@@ -14,21 +16,27 @@ yarn
 ```
 
 finallly,
+
 ```bash
 yarn start
 ```
+
 to start the development mode.
 
 <br/>
 
 # TESTS
+
 **The project was developed according to the TDD approach.**
 To see the test coverage,
 
 ```bash
 yarn coverage
 ```
+
 ## Here are the test results,
+
 ![Coverage](images/coverage.png)
 <br/>
+
 ---
