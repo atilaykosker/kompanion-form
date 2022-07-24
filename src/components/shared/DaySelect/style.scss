@@ -1,0 +1,22 @@
+@import '../../../assets/style/global.scss';
+
+.days-list {
+  background-color: white;
+  padding: 0px 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: $text-color;
+  li {
+    border-bottom: 1px solid $base-color-secondary;
+    padding: 15px 20px;
+    .days-list__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+  }
+  :last-child {
+    border-bottom: 0;
+  }
+}

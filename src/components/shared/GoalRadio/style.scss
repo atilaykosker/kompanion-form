@@ -1,0 +1,28 @@
+@import '../../../assets/style/global.scss';
+
+.goal-list {
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: $text-color;
+  .goal-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $base-color-secondary;
+    padding: 20px 10px;
+  }
+  .goal-list__info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .goal-list__icon {
+      display: flex;
+    }
+  }
+
+  :last-child {
+    border-bottom: 0;
+  }
+}

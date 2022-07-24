@@ -1,0 +1,40 @@
+@import '../../../assets/style/global.scss';
+
+.input-container {
+  position: relative;
+
+  .input {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 0;
+    outline: 0;
+    padding: 0.75px 0.5rem;
+    height: 2.5rem;
+    color: $text-color;
+    ::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  .input__info {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 0.75rem;
+  }
+  .input__info-ar {
+    right: unset;
+    left: 10px;
+  }
+  // hide arrows for num input
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}

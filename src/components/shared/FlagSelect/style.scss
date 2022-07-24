@@ -1,0 +1,17 @@
+@import '../../../assets/style/global.scss';
+
+.flag-select {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  span {
+    padding: 0 0.25rem;
+    cursor: pointer;
+  }
+  :last-child {
+    margin-left: 5px;
+  }
+}
+.selected--flag {
+  border-bottom: 2px solid $base-color;
+}
