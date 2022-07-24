@@ -1,4 +1,4 @@
-## Registeration Step Form
+## Registration Step Form
 ---
 <br>
 
