@@ -1,5 +1,4 @@
 ## Registration Step Form
-
 ---
 
 <br>
