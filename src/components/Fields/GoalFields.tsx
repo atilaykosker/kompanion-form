@@ -4,7 +4,6 @@ import { useForm } from '../../context/FormContext';
 import { StepWrapper } from '../../hoc';
 import { GoalRadio } from '../shared';
 
-
 interface IProps {
   data: { goal?: string };
 }

@@ -4,7 +4,6 @@ import { useForm } from '../../context/FormContext';
 import { StepWrapper } from '../../hoc';
 import { DaySelect } from '../shared';
 
-
 interface IProps {
   data: {
     workoutDays?: string[];

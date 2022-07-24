@@ -1,5 +1,7 @@
 ## Registration Step Form
+
 ---
+
 <br>
 
 ## [Live Demo](https://62dd851daa4c700008cb379c--sparkly-chimera-1a2b97.netlify.app/)
@@ -7,11 +9,15 @@
 <br>
 
 ### In order to run it locally,
+
 Clone the repository
+
 ```bash
 git clone https://github.com/atilaykosker/kompanion-form.git
 ```
+
 then install the dependencies,
+
 ```bash
 yarn
 ```

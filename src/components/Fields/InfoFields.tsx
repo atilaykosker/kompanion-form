@@ -7,7 +7,6 @@ import { StepWrapper } from '../../hoc';
 import { Input } from '../shared';
 import { localeTexts } from '../../assets/strings';
 
-
 interface IProps {
   data: { name?: string; surname?: string; email?: string; password?: string };
 }
