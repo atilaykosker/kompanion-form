@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
-import { Button, FlagSelect, Title } from '../../components/shared';
-
-import { MassFields, WorkoutDaysFields, GoalFields, InfoFields } from '../../components/Fields';
-
 import { useLanguage } from '../../context/LanguageContext';
 import { useForm } from '../../context/FormContext';
 
-import { localeTexts } from '../../assets/strings';
-import './style.scss';
+import { Button, FlagSelect, Title } from '../../components/shared';
+import { MassFields, WorkoutDaysFields, GoalFields, InfoFields } from '../../components/Fields';
+
 import { postData } from '../../utils/services/formService';
 import { validateFields } from '../../utils/helpers/validateHelper';
+
+import { localeTexts } from '../../assets/strings';
+import './style.scss';
 
 const MainPage: React.FC = () => {
   const { language } = useLanguage();

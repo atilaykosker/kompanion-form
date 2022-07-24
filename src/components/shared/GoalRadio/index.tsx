@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { FlameIcon, SmileIcon, TierIcon } from '../../../assets/icons';
-
-import { localeTexts } from '../../../assets/strings';
 import { useLanguage } from '../../../context/LanguageContext';
+
+import { FlameIcon, SmileIcon, TierIcon } from '../../../assets/icons';
+import { localeTexts } from '../../../assets/strings';
 
 import './style.scss';
 interface IProps {

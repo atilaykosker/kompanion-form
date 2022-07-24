@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-
-import { DaySelect } from '../shared';
-import { StepWrapper } from '../../hoc';
-
 import { useForm } from '../../context/FormContext';
+
+import { StepWrapper } from '../../hoc';
+import { DaySelect } from '../shared';
+
 
 interface IProps {
   data: {

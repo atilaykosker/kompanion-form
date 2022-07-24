@@ -1,8 +1,9 @@
 import React from 'react';
-import { GoalRadio } from '../shared';
-import { StepWrapper } from '../../hoc';
-
 import { useForm } from '../../context/FormContext';
+
+import { StepWrapper } from '../../hoc';
+import { GoalRadio } from '../shared';
+
 
 interface IProps {
   data: { goal?: string };

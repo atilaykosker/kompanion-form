@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { localeTexts } from '../../assets/strings';
-import { Input } from '../shared';
-import { StepWrapper } from '../../hoc';
-
 import { useForm } from '../../context/FormContext';
 import { useLanguage } from '../../context/LanguageContext';
+
+import { StepWrapper } from '../../hoc';
+import { Input } from '../shared';
+import { localeTexts } from '../../assets/strings';
+
 
 interface IProps {
   data: { name?: string; surname?: string; email?: string; password?: string };

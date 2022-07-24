@@ -1,12 +1,12 @@
 import React from 'react';
-import { localeTexts } from '../../assets/strings';
-
-import { Input } from '../shared';
-import { StepWrapper } from '../../hoc';
 
 import { useLanguage } from '../../context/LanguageContext';
 import { useForm } from '../../context/FormContext';
 
+import { StepWrapper } from '../../hoc';
+import { Input } from '../shared';
+
+import { localeTexts } from '../../assets/strings';
 interface IProps {
   data: { height?: number | string; weight?: number | string };
 }
